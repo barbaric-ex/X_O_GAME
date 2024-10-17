@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 8px #ddd;
+  margin: 50px auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+  border: 1px solid #fff;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+  color: #ddd;
+  font-size: 46px;
+  cursor: pointer;
+  user-select: none;
+}
